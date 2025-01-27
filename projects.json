@@ -6,14 +6,14 @@
             "image" : "images/cassette-tapes.jpg", 
             "alt" : "multiple black cassette tapes in plastic cases on a beige carpet",
             "link" : "https://github.com/emilyvhs"
-        }
+        },
         {
             "title" : "Project Two",
             "description" : "This is my second project",
             "image" : "images/mobile-phones.jpg", 
             "alt" : "an old mobile phone with an aerial, press buttons, and a blue plastic case, tiled multiple times",
             "link" : "https://github.com/emilyvhs"
-        }
+        },
         {
             "title" : "Project Three",
             "description" : "This is my third project",
