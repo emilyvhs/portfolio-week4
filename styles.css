@@ -1,0 +1,41 @@
+body {
+    background-color: #3b2a2a;
+    color: #e6e6e6;
+    font-family: "Noto Sans", serif;
+}
+
+a {
+    color: #e6e6e6;
+}
+
+h1 {
+    font-family: "Tomorrow", serif;
+    font-weight: 600;    
+}
+
+h2, h3 {
+    font-family: "Tomorrow", serif;
+    font-weight: 500;
+}
+
+header {
+    font-family: "Tomorrow", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 20px;
+}
