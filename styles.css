@@ -49,16 +49,22 @@ header a {
 .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: #e6e6e6;
 }
 
 .portfolio-box {
-    background-color: #e6e6e6;
     color: #3b2a2a;
     padding: 20px;
 }
 
 .portfolio-box a {
     color: #3b2a2a;
+}
+
+.portfolio-box img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
 }
 
 footer {

@@ -11,12 +11,14 @@ fetch ('./projects.json')
         
         data.projects.forEach((project) => {
             
-            let portfolioBox = document.querySelector('.portfolio-box')
+            let portfolioBox = document.querySelector('.portfolio')
             portfolioBox.innerHTML += `
-                <h3>${project.title}</h3>
-                <img src="${project.image}" alt="${project.alt}" />
-                <p>${project.description}</p>
-                <a href=${project.link}>github link</a>
+                <div class="portfolio-box">
+                    <h3>${project.title}</h3>
+                    <img src="${project.image}" alt="${project.alt}" />
+                    <p>${project.description}</p>
+                    <a href=${project.link}>github link</a>
+                </div>
             `        
     })
 })      
