@@ -2,6 +2,7 @@ body {
     background-color: #3b2a2a;
     color: #e6e6e6;
     font-family: "Noto Sans", serif;
+    font-size: 18px;    
 }
 
 h1 {
@@ -60,7 +61,8 @@ header .menu-button {
 
 .intro-text {
     color: #3b2a2a;
-    padding: 20px;    
+    padding: 20px;
+    font-size: 1.5rem;    
 }
 
 .about {
