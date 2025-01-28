@@ -1,21 +1,21 @@
 {
     "projects" : [
         {
-            "title" : "Project One",
+            "title" : "Project one",
             "description" : "This is my first project, and this is a description of that project.",
             "image" : "images/cassette-tapes.png", 
             "alt" : "multiple black cassette tapes in plastic cases on a beige carpet",
             "link" : "https://github.com/emilyvhs"
         },
         {
-            "title" : "Project Two",
+            "title" : "Project two",
             "description" : "This is my second project, and this is a description of that project.",
             "image" : "images/mobile-phones.png", 
             "alt" : "an old mobile phone with an aerial, press buttons, and a blue plastic case, tiled multiple times",
             "link" : "https://github.com/emilyvhs"
         },
         {
-            "title" : "Project Three",
+            "title" : "Project three",
             "description" : "This is my third project, and this is a description of that project.",
             "image" : "images/vhs-tapes.png", 
             "alt" : "cases of multiple vhs tapes lying in neat grid, from brands including Kodak, TDK, Scotch, and GoldStar",
