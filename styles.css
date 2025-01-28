@@ -49,15 +49,19 @@ header .contact-links {
     gap: 20px;
 }
 
-.intro-text {
+.intro {
     background-color: #e6e6e6;
+    padding: 0px 100px;
+}
+
+.intro-text {
     color: #3b2a2a;
     padding: 20px;    
 }
 
 .about {
     display: flex;
-    padding: 20px;
+    padding: 20px 100px;
     gap: 20px;
 }
 
@@ -72,23 +76,27 @@ header .contact-links {
     display: flex;
     justify-content: space-evenly;
     background-color: #e6e6e6;
-}
-
-.portfolio-box {
-    color: #3b2a2a;
     padding: 20px;
-}
-
-.portfolio-box img {
-    max-width: 500px;
 }
 
 .portfolio-box a {
     color: #3b2a2a;
+    text-align: center;
+}
+
+.portfolio-box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: #3b2a2a;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #2F4F4F;
 }
 
 .contact-section {
-    padding: 0px 20px;
+    background-color: #6B4F4F;
+    padding: 20px 100px;
+    text-align: center;
 }
 
 .contact-section a {
@@ -97,22 +105,33 @@ header .contact-links {
 
 .contact-section .contact-links {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+    padding-bottom: 40px;
 }
 
-.contact-section i {
-    margin-right: 10px;
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.contact-box i {
+    font-size: 50px;
+}
+
 
 footer {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 20px 20px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px 20px 0px 20px;
 }
 
 footer nav {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 footer nav a {
@@ -124,7 +143,5 @@ footer a:hover {
     background-color: #6B4F4F;
 }
 
-.copyright {
-    align-self: flex-end;
-}
+
 
