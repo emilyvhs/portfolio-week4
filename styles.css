@@ -9,9 +9,14 @@ h1 {
     font-weight: 600;    
 }
 
-h2, h3 {
+h2, h3, h4 {
     font-family: "Tomorrow", serif;
     font-weight: 500;
+}
+
+h5, h6 {
+    font-family: "Tomorrow", serif;
+    font-weight: 400;
 }
 
 header {
@@ -33,7 +38,7 @@ header a {
     color: #e6e6e6;
 }
 
-.contact {
+header .contact-links {
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -78,7 +83,22 @@ header a {
     color: #3b2a2a;
 }
 
+.contact-section {
+    padding: 0px 20px;
+}
 
+.contact-section a {
+    color: #e6e6e6;
+}
+
+.contact-section .contact-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section i {
+    margin-right: 10px;
+}
 
 footer {
     display: flex;
