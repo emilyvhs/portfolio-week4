@@ -22,4 +22,13 @@ fetch ('./projects.json')
             `        
     })
 })      
-   
+
+let mobileNav = document.querySelector('.mobile-nav')
+let menuButton = document.querySelector('.menu-button')
+
+menuButton.addEventListener('click', showMenu)
+
+function showMenu() {
+    mobileNav.classList.toggle('hidden')
+}
+

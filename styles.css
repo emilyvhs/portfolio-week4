@@ -147,7 +147,13 @@ footer a:hover {
     display: none;
 }
 
+@media screen and (min-width: 851px) {
 
+    .menu-button {
+        display: none;
+    }
+
+}
 
 
 @media screen and (max-width: 850px) {
