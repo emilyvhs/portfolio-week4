@@ -38,6 +38,10 @@ header a {
     color: #e6e6e6;
 }
 
+header nav a:hover, .nav-contact:hover {
+    background-color: #6B4F4F;
+} 
+
 header .contact-links {
     display: flex;
     align-items: center;
@@ -113,6 +117,11 @@ footer nav {
 
 footer nav a {
     color: #e6e6e6;
+    width: fit-content;
+}
+
+footer a:hover {
+    background-color: #6B4F4F;
 }
 
 .copyright {
