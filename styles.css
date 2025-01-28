@@ -46,7 +46,6 @@ header nav a:hover, .nav-contact:hover {
 .header-contact-links {
     display: flex;
     align-items: center;
-    padding-left: 20px;
     gap: 20px;
 }
 
@@ -67,8 +66,7 @@ header .menu-button {
 
 .about {
     display: flex;
-    padding: 20px 100px;
-    gap: 20px;
+    padding: 0px 100px;
 }
 
 .headshot {
@@ -76,6 +74,7 @@ header .menu-button {
     width: 200px;
     object-fit: cover;
     border-radius: 100%;
+    margin: 20px;
 }
 
 .portfolio {
