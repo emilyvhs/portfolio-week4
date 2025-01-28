@@ -125,7 +125,7 @@ header .menu-button {
 }
 
 .contact-box i {
-    font-size: 50px;
+    font-size: 4rem;
 }
 
 
@@ -133,7 +133,11 @@ footer, footer nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 20px 20px 0px 20px;
+}
+
+footer {
+    margin: 20px;
+    margin-bottom: 0px;
 }
 
 footer nav a {
