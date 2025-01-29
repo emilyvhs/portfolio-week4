@@ -34,16 +34,4 @@ function showMenu() {
     mobileContact.classList.toggle('hidden')
 }
 
-let imageOne = document.querySelector('.image-one')
-let imageTwo = document.querySelector('.image-two')
-
-let aboutSection = document.querySelector('.about')
-
-aboutSection.addEventListener('mouseover', fadeInImages)
-
-
-function fadeInImages(){
-    imageOne.classList.add('image-animation')
-    imageTwo.classList.add('image-animation')
-}
 

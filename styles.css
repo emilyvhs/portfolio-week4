@@ -65,7 +65,7 @@ header .menu-button {
 
 .intro {
     background-color: #6B4F4F;
-    padding: 50px 300px;
+    padding: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -90,20 +90,13 @@ header .menu-button {
 /* About section styling on desktop */
 
 .about {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 50px 100px 100px 100px;
     background-color: #e6e6e6;
     color: #3b2a2a;    
     font-weight: 300;    
-    gap: 100px;
-    padding-top: 50px;
-}
-
-.about-images {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 20px;
-    max-width: 850px;
+    gap: 50px;
 }
 
 .about-text h2 {
@@ -136,9 +129,9 @@ header .menu-button {
 }
 
 .portfolio-box-target {
-    display: flex;    
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
 }
 
 .portfolio-box {   
@@ -146,11 +139,12 @@ header .menu-button {
     color: #3b2a2a;
     padding: 20px;
     box-shadow: 5px 5px 5px 5px #a67c7c;
-    max-width: 500px;    
+    max-width: 500px;
 }
 
 .portfolio-box img {
     width: 100%;
+    object-fit: cover;
 }
 
 .portfolio-box:hover {

@@ -18,6 +18,7 @@
 
     <script src="script.js" defer></script>
 </head>
+
 <body>
 
     <header>
@@ -31,8 +32,9 @@
 
             <nav class="top-nav hidden">
                 <a href="#home">home</a>
-                <a href="#about">about</a>
                 <a href="#portfolio">portfolio</a>
+                <a href="#about">about</a>
+                
             </nav>
 
             <div class="header-contact-links hidden">
@@ -47,18 +49,22 @@
 
         <div class="intro-text">
             <h2>Hi! I'm Emily.</h2>
-            <p>I'm a software developer based in Derby, UK.</p>
+            <p>I'm a software developer based in Derby, UK. 
+            <br> This is what I'm working on.</p>
         </div>
 
     </section>
 
+    <section class="portfolio" id="portfolio">
+                  
+        <div class="portfolio-box-target"></div>       
+        
+    </section>
+ 
     <section class="about" id="about">
 
-        <span></span>
-
         <div class="about-images">            
-            <img class="pycon-image image-one" src="images/PyCon-UK-23-3.png" alt="Emily presenting to a full auditorium at PyCon UK 2023, in front of a presentation screen with text reading 'Digital theatre requires someone to be present to make the experience whole'" />            
-            <img class="pycon-image image-two" src="images/PyCon-UK-23-1.png" alt="Emily, a white woman in her thirties with pink hair, laughing as she speaks from a PyCon UK 2023 podium" />
+            <img class="pycon-image image-two image-animation" src="images/PyCon-UK-23-1.png" alt="Emily, a white woman in her thirties with pink hair, laughing as she speaks from a PyCon UK 2023 podium" />
         </div>
 
         <div class="about-text">
@@ -84,30 +90,13 @@
                 12 week intensive Software Developer Essentials course, after
                 completing their Coding Quick Start short course in 2024.       
             </p>
-            <h3>Skills</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>               
-            </ul>
-        </div>
-        
-        <span></span>
+            
+        </div>        
 
     </section>        
 
-    <section class="portfolio" id="portfolio">
-       
-
-        <h2>Portfolio</h2>
-
-        <div>            
-            <div class="portfolio-box-target"></div>            
-        </div>
-       
-        
-    </section>
     
+       
     <section class="contact-section" id="contact">
 
         <h3>Contact me</h3>
@@ -133,9 +122,10 @@
   
     <footer>
         <nav>
-            <a href="#home">home</a>            
+            <a href="#home">home</a>
+            <a href="#portfolio">portfolio</a>            
             <a href="#about">about</a>            
-            <a href="#portfolio">portfolio</a>
+            
         </nav>
         <p class="copyright">&copy; Emily Sherwood 2025</p>
     </footer>
