@@ -1,7 +1,5 @@
 "use strict";
 
-const portfolio = document.querySelector('#portfolio')
-
 fetch ('./projects.json')
     .then ((response) => {
         return response.json()
@@ -11,7 +9,7 @@ fetch ('./projects.json')
         
         data.projects.forEach((project) => {
             
-            let portfolioBox = document.querySelector('.portfolio')
+            let portfolioBox = document.querySelector('.portfolio-box-target')
             portfolioBox.innerHTML += `
                 <div class="portfolio-box">
                     <h3>${project.title}</h3>
