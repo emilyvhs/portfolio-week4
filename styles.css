@@ -36,6 +36,12 @@ header nav {
     gap: 20px;
 }
 
+.title-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 header a {
     color: #e6e6e6;
 }
@@ -74,11 +80,10 @@ header .menu-button {
 }
 
 .headshot {
-    height: 200px;
-    width: 200px;
+    height: 60px;
+    width: 60px;
     object-fit: cover;
     border-radius: 100%;
-    margin: 20px;
 }
 
 /* About section styling on desktop */
