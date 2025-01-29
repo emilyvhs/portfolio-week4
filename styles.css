@@ -224,27 +224,20 @@ footer a:hover {
 
 }
 
-/* Responsive styling for under 1600px */
+/* Responsive styling for under 1200px */
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
 
     .about {
-        display: flex;        
-    }
-
-    .portfolio-box-target {
-        padding: 10px;
-        gap: 10px;
-    }
-    
-    .portfolio-box {
-        max-width: 300px;        
-    }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }  
 
 }
 
 /* Responsive styling for mobile (under 850px) */
-
 
 @media screen and (max-width: 850px) {
 
@@ -267,52 +260,23 @@ footer a:hover {
     }
 
     .intro {
-        padding: 20px 50px;
         text-align: center;
         justify-content: center;
     }    
 
     .about {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px 50px 0px 50px;
-        gap: 10px;
-    }
-    
-    .image-one {
-        display: none;
-    }
-
-    .about-images {
-        flex-direction: row;
-        justify-content: center;
-        max-width: 850px;
-        margin-bottom: 20px;
-    }
-
-    .pycon-image {
-        width: 100%;
-    }
-
-    .portfolio h2 {
-        padding: 0px 50px 20px 50px;
-    }
-
-    .portfolio {
-        flex-direction: column;
-        align-content: center;
-    }
+        padding-top: 0px;
+    }      
 
     .portfolio-box-target {
+        display: flex;
         flex-direction: column;
-        padding: 0px 50px;
-        gap: 20px;
-
+        align-items: center;
     }
-
-    .portfolio-box {
-        max-width: 850px;
-    }
+   
 
     .contact-section .contact-links {
         flex-direction: column;
