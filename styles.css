@@ -33,6 +33,7 @@ header {
 
 header nav {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
@@ -72,7 +73,7 @@ header .menu-button {
 .intro-text {
     color: #e6e6e6;
     font-size: 1.5rem;
-    align-content:center;    
+    align-content: center;    
 }
 
 .intro-text {
@@ -89,8 +90,7 @@ header .menu-button {
 /* About section styling on desktop */
 
 .about {
-    display: grid;
-    grid-template-columns: 1fr 2fr 4fr 1fr;
+    display: flex;
     background-color: #e6e6e6;
     color: #3b2a2a;    
     font-weight: 300;    
@@ -103,6 +103,7 @@ header .menu-button {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 20px;
+    max-width: 850px;
 }
 
 .about-text h2 {
@@ -110,7 +111,7 @@ header .menu-button {
 }
 
 .pycon-image {
-    max-width: 400px;    
+    width: 100%;    
     box-shadow: 5px 5px 5px 5px #a67c7c;
     opacity: 0;
 }
@@ -129,13 +130,7 @@ header .menu-button {
 /* Portfolio section styling on desktop */
 
 .portfolio {
-    padding: 50px 0px;    
-    background-color: #e6e6e6;
-    color: #3b2a2a;     
-}
-
-.portfolio h2 {
-    padding: 0 300px;
+    padding: 100px;    
     background-color: #e6e6e6;
     color: #3b2a2a;     
 }
@@ -144,8 +139,6 @@ header .menu-button {
     display: flex;    
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 30px;
-    gap: 20px;
 }
 
 .portfolio-box {   
@@ -153,7 +146,7 @@ header .menu-button {
     color: #3b2a2a;
     padding: 20px;
     box-shadow: 5px 5px 5px 5px #a67c7c;
-    max-width: 450px;    
+    max-width: 500px;    
 }
 
 .portfolio-box img {
@@ -279,13 +272,36 @@ footer a:hover {
         display: none;
     }
 
-    .intro-text {
+    .intro {
+        padding: 20px 50px;
         text-align: center;
-    }
+        justify-content: center;
+    }    
 
     .about {
         flex-direction: column;
         align-items: center;
+        padding: 20px 50px 0px 50px;
+        gap: 10px;
+    }
+    
+    .image-one {
+        display: none;
+    }
+
+    .about-images {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 850px;
+        margin-bottom: 20px;
+    }
+
+    .pycon-image {
+        width: 100%;
+    }
+
+    .portfolio h2 {
+        padding: 0px 50px 20px 50px;
     }
 
     .portfolio {
@@ -293,8 +309,15 @@ footer a:hover {
         align-content: center;
     }
 
+    .portfolio-box-target {
+        flex-direction: column;
+        padding: 0px 50px;
+        gap: 20px;
+
+    }
+
     .portfolio-box {
-        width: 80%;
+        max-width: 850px;
     }
 
     .contact-section .contact-links {
