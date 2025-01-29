@@ -20,6 +20,8 @@ h5, h6 {
     font-weight: 400;
 }
 
+/* Header styling on desktop */
+
 header {
     font-family: "Tomorrow", serif;
     display: flex;
@@ -53,16 +55,19 @@ header .menu-button {
     padding-bottom: 20px;
 }
 
+/* Intro/home section styling on desktop */
+
 .intro {
     background-color: #e6e6e6;
-    padding: 0px 100px;
+    padding: 20px 100px;
 }
 
 .intro-text {
     color: #3b2a2a;
-    padding: 20px;
     font-size: 1.5rem;    
 }
+
+/* About section styling on desktop */
 
 .about {
     display: flex;
@@ -78,25 +83,14 @@ header .menu-button {
     margin: 20px;
 }
 
+/* Portfolio section styling on desktop */
+
 .portfolio {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e6e6e6;
     padding: 20px;
-}
-
-.portfolio-box a {
-    font-family: "Tomorrow", serif;
-    background-color: #3b2a2a;
-    color: #e6e6e6;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.portfolio-box a:hover {
-    background-color: #2f4f4f
 }
 
 .portfolio-box {
@@ -113,22 +107,29 @@ header .menu-button {
     box-shadow: 7px 7px 7px 7px #6B4F4F;
 }
 
+.portfolio-box a {
+    background-color: #3b2a2a;
+    color: #e6e6e6;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.portfolio-box a:hover {
+    background-color: #2f4f4f
+}
+
+/* Contact section styling for desktop */
+
 .contact-section {
     background-color: #6B4F4F;
-    padding: 20px 100px;
+    padding: 20px 100px 50px 100px;
     text-align: center;
 }
 
 .contact-section a {
     color: #e6e6e6;
     font-family: "Tomorrow", serif;
-}
-
-.contact-section .contact-links {
-    display: flex;
-    justify-content: center;
-    gap: 75px;
-    padding-bottom: 40px;
 }
 
 .contact-box {
@@ -141,6 +142,13 @@ header .menu-button {
     font-size: 4rem;
 }
 
+.contact-section .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 75px;    
+}
+
+/* Footer section styling for desktop */
 
 footer, footer nav {
     display: flex;
@@ -149,11 +157,10 @@ footer, footer nav {
 }
 
 footer {
-    margin: 20px;
-    margin-bottom: 0px;
-}
+    margin: 20px 20px 0px 20px;
+}    
 
-footer nav a {
+footer a {
     color: #e6e6e6;
     width: fit-content;
 }
@@ -162,6 +169,8 @@ footer a:hover {
     background-color: #6B4F4F;
 }
 
+/* Hiding burger menu button on desktop */
+
 @media screen and (min-width: 851px) {
 
     .menu-button {
@@ -169,6 +178,8 @@ footer a:hover {
     }
 
 }
+
+/* Responsive styling for mobile (under 850px) */
 
 
 @media screen and (max-width: 850px) {
