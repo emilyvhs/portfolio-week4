@@ -209,11 +209,11 @@ footer a:hover {
     background-color: #6B4F4F;
 }
 
-/* Hiding burger menu button on desktop */
+/* Hiding burger menu buttons on desktop */
 
 @media screen and (min-width: 851px) {
 
-    .menu-button {
+    .menu-button-open, .menu-button-close {
         display: none;
     }
 
@@ -257,21 +257,20 @@ footer a:hover {
     .intro {
         text-align: center;
         justify-content: center;
-    }    
-
-    .about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0px;
-    }      
+    }           
 
     .portfolio-box-target {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-   
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }     
 
     .contact-section {
         display: flex;
@@ -286,6 +285,3 @@ footer a:hover {
     }
 
 }
-
-
-
