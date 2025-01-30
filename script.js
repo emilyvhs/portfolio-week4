@@ -24,14 +24,20 @@ fetch ('./projects.json')
 let mobileNav = document.querySelector('.top-nav')
 let mobileContactLinks = document.querySelector('.header-contact-links')
 let mobileContact = document.querySelector('.nav-contact')
-let menuButton = document.querySelector('.menu-button')
+let menuButtonOpen = document.querySelector('.menu-button-open')
+let menuButtonClose = document.querySelector('.menu-button-close')
 
-menuButton.addEventListener('click', showMenu)
+menuButtonOpen.addEventListener('click', showMenu)
+menuButtonClose.addEventListener('click', showMenu)
 
 function showMenu() {
     mobileNav.classList.toggle('hidden')
     mobileContactLinks.classList.toggle('hidden')
     mobileContact.classList.toggle('hidden')
+    menuButtonOpen.classList.toggle('hidden')
+    menuButtonClose.classList.toggle('hidden')
 }
+
+
 
 

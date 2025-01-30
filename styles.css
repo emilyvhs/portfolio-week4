@@ -58,7 +58,7 @@ header nav a:hover, .nav-contact:hover {
     background-color: #6B4F4F;
 }
 
-header i:hover {
+.header-social-icon:hover {
     color: #2f4f4f;
 }
 
@@ -68,7 +68,7 @@ header i:hover {
     gap: 20px;
 }
 
-header .menu-button {
+header .menu-button-open, .menu-button-close {
     padding-bottom: 20px;
 }
 
