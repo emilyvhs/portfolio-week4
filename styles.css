@@ -258,7 +258,11 @@ footer a:hover {
     .intro {
         text-align: center;
         justify-content: center;
-    }           
+    }
+    
+    .portfolio {
+        padding: 20px;
+    }
 
     .portfolio-box-target {
         display: flex;
@@ -270,7 +274,7 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 0px;
+        padding: 20px;
     }     
 
     .contact-section {
@@ -283,6 +287,11 @@ footer a:hover {
 
     footer, footer nav {
         align-items: center;
+    }
+
+    footer p {
+        padding-top: 20px;
+        text-align: center;        
     }
 
 }
